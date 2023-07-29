@@ -6,17 +6,19 @@
   body {
     background: #DDC5A2;
     color: #523634;
-    /* max-width: 400px; */
     height: 100vh;
     padding: 1rem;
-    /* margin:  auto;
-    align-items: center; */
   }
   .toDoParent{
     height: 50vh;
     width: max-content;
     margin: auto;
     padding: 0%;
+  }
+  .header{
+    font-weight: 900;
+    padding-left: 30%;
+    align-items: center;
   }
   .formInput{
     width : 500px;
@@ -83,7 +85,7 @@
     border: 1px solid hsl(200, 100%, 70%);
   }
   
-  .header {
+  .title {
     font-size: 2.0rem;
     margin-top: 2.0rem;
     margin-bottom: 0.5rem;

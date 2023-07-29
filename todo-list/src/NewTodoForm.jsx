@@ -11,7 +11,7 @@ export function NewTodoForm({onSubmit} ) {
   return (
     // <div className="toDoParent">
        <form onSubmit={handleSubmit} className="new-item-form">
-      <label htmlFor="item">New Item</label>
+      <label htmlFor="item">Add a New Item</label>
       <div className="form-row">
         <input
         className="formInput"

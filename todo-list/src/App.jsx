@@ -43,8 +43,9 @@ useEffect(()=>{
   }
   return (
     <div className="toDoParent">
+      <h1 className="header">ToDoList</h1>
       <NewTodoForm onSubmit={addTodo} />
-      <h1 className="header">Todo List</h1>
+      <h1 className="title">Tasks</h1>
       <TodoList todos={todos} toggleTodo={toggleTodo} deleteTodo={deleteTodo } />
     </div>
   );
